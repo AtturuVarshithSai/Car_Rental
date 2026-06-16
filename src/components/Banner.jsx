@@ -5,10 +5,13 @@ function Banner() {
         <div className="container">
           <div className="banner-content">
             <div className="banner-content__text">
-              <h2>Save big with our cheap car rental!</h2>
+              <span>Ready for your next trip?</span>
+              <h2>Ready To Hit The Road?</h2>
               <p>
-                Top Airports. Local Suppliers. <span>24/7</span> Support.
+                Book your car today and enjoy a smooth journey with clean,
+                dependable rides and local support.
               </p>
+              <a href="#booking-section">Book Your Drive</a>
             </div>
           </div>
         </div>

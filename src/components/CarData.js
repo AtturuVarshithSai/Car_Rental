@@ -1,93 +1,42 @@
-import Golf6 from "../images/cars-big/golf6.jpg";
-import AudiA1 from "../images/cars-big/audia1.jpg";
-import Toyota from "../images/cars-big/toyotacamry.jpg";
-import Bmw320 from "../images/cars-big/bmw320.jpg";
-import Benz from "../images/cars-big/benz.jpg";
-import Passat from "../images/cars-big/passatcc.jpg";
+import Ertiga from "../images/cars-big/ertiga.png";
+import Baleno from "../images/cars-big/baleno.png";
+import Swift from "../images/cars-big/swift.png";
 
 export const CAR_DATA = [
-  [
-    {
-      name: "VW Golf 6",
-      price: "37",
-      img: Golf6,
-      model: "Golf 6",
-      mark: "Volkswagen",
-      year: "2008",
-      doors: "4/5",
-      air: "Yes",
-      transmission: "Manual",
-      fuel: "Diesel",
-    },
-  ],
-  [
-    {
-      name: "Audi A1 S-Line",
-      price: "45",
-      img: AudiA1,
-      model: "Audi",
-      mark: "A1",
-      year: "2012",
-      doors: "4/5",
-      air: "Yes",
-      transmission: "Manual",
-      fuel: "Gasoline",
-    },
-  ],
-  [
-    {
-      name: "Toyota Camry",
-      price: "30",
-      img: Toyota,
-      model: "Camry",
-      mark: "Toyota",
-      year: "2006",
-      doors: "4/5",
-      air: "Yes",
-      transmission: "Automatic",
-      fuel: "Hybrid",
-    },
-  ],
-  [
-    {
-      name: "BMW 320 ModernLine",
-      price: "35",
-      img: Bmw320,
-      model: "320",
-      mark: "BMW",
-      year: "2012",
-      doors: "4/5",
-      air: "Yes",
-      transmission: "Manual",
-      fuel: "Diesel",
-    },
-  ],
-  [
-    {
-      name: "Mercedes-Benz GLK",
-      price: "50",
-      img: Benz,
-      model: "Benz GLK",
-      mark: "Mercedes",
-      year: "2006",
-      doors: "4/5",
-      air: "Yes",
-      transmission: "Manual",
-      fuel: "Diesel",
-    },
-  ],
-  [
-    {
-      name: "VW Passat CC",
-      price: "25",
-      img: Passat,
-      model: "Passat CC",
-      mark: "Volkswagen",
-      year: "2008",
-      doors: "4/5",
-      air: "Yes",
-      transmission: "Automatic",
-      fuel: "Gasoline",
-    },
-  ],
+  {
+    name: "Maruti Ertiga",
+    price: "2499",
+    img: Ertiga,
+    model: "Ertiga",
+    mark: "Maruti Suzuki",
+    year: "2024",
+    seats: "7 Seats",
+    air: "Yes",
+    transmission: "Manual",
+    fuel: "Petrol",
+  },
+  {
+    name: "Maruti Baleno",
+    price: "1899",
+    img: Baleno,
+    model: "Baleno",
+    mark: "Maruti Suzuki",
+    year: "2024",
+    seats: "5 Seats",
+    air: "Yes",
+    transmission: "Manual",
+    fuel: "Petrol",
+  },
+  {
+    name: "Maruti Swift",
+    price: "1699",
+    img: Swift,
+    model: "Swift",
+    mark: "Maruti Suzuki",
+    year: "2024",
+    seats: "5 Seats",
+    air: "Yes",
+    transmission: "Manual",
+    fuel: "Petrol",
+  },
 ];

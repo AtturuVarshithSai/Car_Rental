@@ -9,18 +9,18 @@ import Person6 from "../images/team/6.png";
 
 function Team() {
   const teamPpl = [
-    { img: Person1, name: "Luke Miller", job: "Salesman" },
-    { img: Person2, name: "Michael Diaz", job: "Business Owner" },
-    { img: Person3, name: "Briana Ross", job: "Photographer" },
-    { img: Person4, name: "Lauren Rivera", job: "Car Detailist" },
-    { img: Person5, name: "Martin Rizz", job: "Mechanic" },
-    { img: Person6, name: "Caitlyn Hunt", job: "Menager" },
+    { img: Person1, name: "Arjun Nair", job: "Founder" },
+    { img: Person2, name: "Megha Rao", job: "Operations" },
+    { img: Person3, name: "Vikram Patel", job: "Customer Support" },
+    { img: Person4, name: "Sneha Iyer", job: "Fleet Coordinator" },
+    { img: Person5, name: "Kiran Das", job: "Vehicle Care" },
+    { img: Person6, name: "Aisha Khan", job: "Booking Manager" },
   ];
   return (
     <>
       <section className="team-page">
         <HeroPages name="Our Team" />
-        <div className="cotnainer">
+        <div className="container">
           <div className="team-container">
             {teamPpl.map((ppl, id) => (
               <div key={id} className="team-container__box">
@@ -39,10 +39,10 @@ function Team() {
           <div className="book-banner__overlay"></div>
           <div className="container">
             <div className="text-content">
-              <h2>Book a car by getting in touch with us</h2>
+              <h2>Friendly local support, from booking to drop-off</h2>
               <span>
                 <i className="fa-solid fa-phone"></i>
-                <h3>(123) 456-7869</h3>
+                <h3>+91 98765 43210</h3>
               </span>
             </div>
           </div>

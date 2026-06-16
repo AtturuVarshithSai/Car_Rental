@@ -1,3 +1,5 @@
+import {FaWhatsapp,FaInstagram,FaFacebook,FaLinkedin,FaYoutube,FaPhone} from "react-icons/fa";
+
 function Footer() {
   return (
     <>
@@ -6,76 +8,70 @@ function Footer() {
           <div className="footer-content">
             <ul className="footer-content__1">
               <li>
-                <span>CAR</span> Rental
+                <span>DRIVE</span>LOCAL
               </li>
               <li>
-                We offers a big range of vehicles for all your driving needs. We
-                have the perfect car to meet your needs.
+                Clean, affordable self-drive rentals for local travel, airport
+                pickups, and weekend plans.
               </li>
               <li>
-                <a href="tel:123456789">
-                  <i className="fa-solid fa-phone"></i> &nbsp; (123) -456-789
+                <a href="tel:+919876543210">
+                  <i className="fa-solid fa-phone"></i> &nbsp; +91 98765 43210
                 </a>
               </li>
 
               <li>
-                <a
-                  href="mailto: 
-                carrental@gmail.com"
-                >
+                <a href="mailto:hello@drivelocal.in">
                   <i className="fa-solid fa-envelope"></i>
-                  &nbsp; carrental@xyz.com
-                </a>
-              </li>
-
-              <li>
-                <a
-                  style={{ fontSize: "14px" }}
-                  target="_blank"
-                  rel="noreferrer"
-                  href="https://devrahuls.vercel.app/"
-                >
-                  Design with ❤️ by Rahul
+                  &nbsp; hello@drivelocal.in
                 </a>
               </li>
             </ul>
 
             <ul className="footer-content__2">
-              <li>Company</li>
+              <li>Quick Links</li>
               <li>
-                <a href="#home">Gallery</a>
+                <a href="/">Home</a>
               </li>
               <li>
-                <a href="#home">Careers</a>
+                <a href="/#fleet">Our Cars</a>
               </li>
               <li>
-                <a href="#home">Mobile</a>
+                <a href="/#how-it-works">How It Works</a>
               </li>
               <li>
-                <a href="#home">Blog</a>
+                <a href="/about">About</a>
               </li>
               <li>
-                <a href="#home">How we work</a>
+                <a href="/contact">Contact</a>
               </li>
             </ul>
 
             <ul className="footer-content__2">
-              <li>Working Hours</li>
-              <li>Mon - Fri: 9:00AM - 9:00PM</li>
-              <li>Sat: 9:00AM - 19:00PM</li>
-              <li>Sun: Closed</li>
+              <li>Available Cars</li>
+              <li>Maruti Ertiga</li>
+              <li>Maruti Baleno</li>
+              <li>Maruti Swift</li>
+              <li>Daily rentals available</li>
             </ul>
 
             <ul className="footer-content__2">
-              <li>Subscription</li>
+              <li>Contact</li>
               <li>
-                <p>Subscribe your Email address for latest news & updates.</p>
+                <p>48 Residency Road, Bengaluru, Karnataka</p>
               </li>
               <li>
-                <input type="email" placeholder="Enter Email Address"></input>
-              </li>
-              <li>
-                <button className="submit-email">Submit</button>
+                <div className="footer-socials">
+                  <a href="https://wa.me/919876543210" target="_blank" rel="noopener noreferrer">
+                    <FaWhatsapp size={40} color="#2563eb"/>
+                  </a>
+                  <a href="tel:+919876543210">
+                    <FaPhone size={30} color="#2563eb"/>
+                  </a>
+                  <a href="https://instagram.com/drivelocal" target="_blank" rel="noopener noreferrer">
+                    <FaInstagram size={40} color="#2563eb"/>
+                  </a>
+                </div>
               </li>
             </ul>
           </div>

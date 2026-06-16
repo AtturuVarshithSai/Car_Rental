@@ -8,13 +8,11 @@ function Testimonials() {
         <div className="container">
           <div className="testimonials-content">
             <div className="testimonials-content__title">
-              <h4>Reviewed by People</h4>
-              <h2>Client's Testimonials</h2>
+              <h4>Testimonials</h4>
+              <h2>People choose us because the experience feels easy</h2>
               <p>
-                Discover the positive impact we've made on the our clients by
-                reading through their testimonials. Our clients have experienced
-                our service and results, and they're eager to share their
-                positive experiences with you.
+                Trusted by local travelers, families, and professionals who want
+                a simple self-drive option without the usual booking chaos.
               </p>
             </div>
 
@@ -24,16 +22,15 @@ function Testimonials() {
                   <i className="fa-solid fa-quote-right"></i>
                 </span>
                 <p>
-                  "We rented a car from this website and had an amazing
-                  experience! The booking was easy and the rental rates were
-                  very affordable. "
+                  "The booking flow felt surprisingly premium. We picked up the
+                  Baleno in perfect condition and the whole trip went smoothly."
                 </p>
                 <div className="all-testimonials__box__name">
                   <div className="all-testimonials__box__name__profile">
                     <img src={Img2} alt="user_img" />
                     <span>
-                      <h4>Parry Hotter</h4>
-                      <p>Belgrade</p>
+                      <h4>Rohan Mehta</h4>
+                      <p>Bengaluru</p>
                     </span>
                   </div>
                 </div>
@@ -44,15 +41,15 @@ function Testimonials() {
                   <i className="fa-solid fa-quote-right"></i>
                 </span>
                 <p>
-                  "The car was in great condition and made our trip even better.
-                  Highly recommend for this car rental website!"
+                  "We booked the Ertiga for a family weekend and loved how clean
+                  and easy everything was. Great support and fair pricing too."
                 </p>
                 <div className="all-testimonials__box__name">
                   <div className="all-testimonials__box__name__profile">
                     <img src={Img3} alt="user_img" />
                     <span>
-                      <h4>Ron Rizzly</h4>
-                      <p>Novi Sad</p>
+                      <h4>Ananya Rao</h4>
+                      <p>Mysuru</p>
                     </span>
                   </div>
                 </div>

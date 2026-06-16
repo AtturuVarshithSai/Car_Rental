@@ -1,0 +1,21 @@
+<svg width="960" height="540" viewBox="0 0 960 540" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="960" height="540" rx="48" fill="#F8FBFF"/>
+  <ellipse cx="468" cy="418" rx="262" ry="28" fill="#D8E5F6"/>
+  <path d="M228 338C228 302.654 256.654 274 292 274H561.577C591.723 274 620.507 286.477 640.903 308.47L688 359H250C237.85 359 228 349.15 228 337V338Z" fill="url(#paint0_linear_1_4)"/>
+  <path d="M332 245H520C553.411 245 584.564 262.009 602.73 290.137L619 315H307L316.388 272.9C319.482 259.018 331.787 249.146 346.01 249.146H349L332 245Z" fill="#FFFFFF"/>
+  <path d="M330 258H426L408 315H314L321.214 283.807C323.299 274.79 331.323 268.39 340.578 268.39H343L330 258Z" fill="#DCE7F5"/>
+  <path d="M448 258H526C549.732 258 572.502 267.419 588.828 284.188L604 300H432L448 258Z" fill="#DCE7F5"/>
+  <rect x="242" y="322" width="425" height="18" rx="9" fill="#2563EB"/>
+  <circle cx="329" cy="369" r="47" fill="#0F172A"/>
+  <circle cx="329" cy="369" r="25" fill="#EFF6FF"/>
+  <circle cx="604" cy="369" r="47" fill="#0F172A"/>
+  <circle cx="604" cy="369" r="25" fill="#EFF6FF"/>
+  <rect x="180" y="92" width="176" height="48" rx="24" fill="#DBEAFE"/>
+  <text x="268" y="122" text-anchor="middle" fill="#1D4ED8" font-family="Manrope, Arial, sans-serif" font-size="24" font-weight="700">MARUTI SWIFT</text>
+  <defs>
+    <linearGradient id="paint0_linear_1_4" x1="228" y1="274" x2="688" y2="359" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#E8F1FF"/>
+    </linearGradient>
+  </defs>
+</svg>

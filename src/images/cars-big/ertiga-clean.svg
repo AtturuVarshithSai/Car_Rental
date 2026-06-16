@@ -1,0 +1,24 @@
+<svg width="960" height="540" viewBox="0 0 960 540" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="960" height="540" rx="48" fill="#F8FBFF"/>
+  <ellipse cx="472" cy="420" rx="292" ry="34" fill="#D8E5F6"/>
+  <path d="M220 330C220 285.817 255.817 250 300 250H592C626.626 250 658.612 268.352 676.033 298.239L711 358H245C231.193 358 220 346.807 220 333V330Z" fill="url(#paint0_linear_1_2)"/>
+  <path d="M316 224H544C585.195 224 623.179 246.498 643.091 282.656L655 304H276L289.198 261.007C293.143 248.15 305.022 239.4 318.47 239.4H329.5L316 224Z" fill="#FDFEFF"/>
+  <path d="M307 244H424L399 304H286L296.497 267.258C298.92 258.778 306.666 252.93 315.484 252.93H319L307 244Z" fill="#DCE7F5"/>
+  <path d="M449 244H565C593.722 244 620.238 259.484 634.351 284.522L643 300H430L449 244Z" fill="#DCE7F5"/>
+  <rect x="237" y="315" width="487" height="24" rx="12" fill="#2563EB"/>
+  <rect x="690" y="330" width="31" height="12" rx="6" fill="#0F172A"/>
+  <rect x="238" y="330" width="37" height="12" rx="6" fill="#0F172A"/>
+  <circle cx="320" cy="370" r="52" fill="#0F172A"/>
+  <circle cx="320" cy="370" r="29" fill="#EFF6FF"/>
+  <circle cx="640" cy="370" r="52" fill="#0F172A"/>
+  <circle cx="640" cy="370" r="29" fill="#EFF6FF"/>
+  <path d="M312 212H564" stroke="#CBD5E1" stroke-width="10" stroke-linecap="round"/>
+  <rect x="170" y="88" width="188" height="48" rx="24" fill="#DBEAFE"/>
+  <text x="264" y="118" text-anchor="middle" fill="#1D4ED8" font-family="Manrope, Arial, sans-serif" font-size="24" font-weight="700">MARUTI ERTIGA</text>
+  <defs>
+    <linearGradient id="paint0_linear_1_2" x1="220" y1="250" x2="713" y2="358" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#E8F1FF"/>
+    </linearGradient>
+  </defs>
+</svg>

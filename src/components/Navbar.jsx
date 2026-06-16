@@ -1,18 +1,26 @@
 import { Link } from "react-router-dom";
-import Logo from "../images/logo/logo.png";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 function Navbar() {
   const [nav, setNav] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
 
   const openNav = () => {
     setNav(!nav);
   };
 
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrolled(window.scrollY > 12);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   return (
     <>
       <nav>
-        {/* mobile */}
         <div className={`mobile-navbar ${nav ? "open-nav" : ""}`}>
           <div onClick={openNav} className="mobile-navbar__close">
             <i className="fa-solid fa-xmark"></i>
@@ -24,25 +32,16 @@ function Navbar() {
               </Link>
             </li>
             <li>
+              <a onClick={openNav} href="/#fleet">Our Cars</a>
+            </li>
+            <li>
+              <a onClick={openNav} href="/#how-it-works">How It Works</a>
+            </li>
+            {/* <li>
               <Link onClick={openNav} to="/about">
                 About
               </Link>
-            </li>
-            <li>
-              <Link onClick={openNav} to="/models">
-                Models
-              </Link>
-            </li>
-            <li>
-              <Link onClick={openNav} to="/testimonials">
-                Testimonials
-              </Link>
-            </li>
-            <li>
-              <Link onClick={openNav} to="/team">
-                Our Team
-              </Link>
-            </li>
+            </li> */}
             <li>
               <Link onClick={openNav} to="/contact">
                 Contact
@@ -51,12 +50,10 @@ function Navbar() {
           </ul>
         </div>
 
-        {/* desktop */}
-
-        <div className="navbar">
-          <div className="navbar__img">
+        <div className={`navbar ${scrolled ? "navbar-scrolled" : ""}`}>
+          <div className="navbar__brand">
             <Link to="/" onClick={() => window.scrollTo(0, 0)}>
-              <img src={Logo} alt="logo-img" />
+              <span>DRIVE</span>LOCAL
             </Link>
           </div>
           <ul className="navbar__links">
@@ -66,46 +63,27 @@ function Navbar() {
               </Link>
             </li>
             <li>
-              {" "}
-              <Link className="about-link" to="/about">
-                About
-              </Link>
+              <a className="models-link" href="/#fleet">Our Cars</a>
             </li>
             <li>
-              {" "}
-              <Link className="models-link" to="/models">
-                Vehicle Models
-              </Link>
+              <a className="testi-link" href="/#how-it-works">How It Works</a>
             </li>
+            {/* <li>
+              <Link className="about-link" to="/about">About</Link>
+            </li> */}
             <li>
-              {" "}
-              <Link className="testi-link" to="/testimonials">
-                Testimonials
-              </Link>
-            </li>
-            <li>
-              {" "}
-              <Link className="team-link" to="/team">
-                Our Team
-              </Link>
-            </li>
-            <li>
-              {" "}
-              <Link className="contact-link" to="/contact">
-                Contact
-              </Link>
+              <Link className="contact-link" to="/contact">Contact</Link>
             </li>
           </ul>
           <div className="navbar__buttons">
-            <Link className="navbar__buttons__sign-in" to="/">
-              Sign In
-            </Link>
-            <Link className="navbar__buttons__register" to="/">
-              Register
-            </Link>
+            <a className="navbar__buttons__phone" href="tel:+919876543210">
+              +91 98765 43210
+            </a>
+            <a className="navbar__buttons__register" href="/#booking-section">
+              Book Now
+            </a>
           </div>
 
-          {/* mobile */}
           <div className="mobile-hamb" onClick={openNav}>
             <i className="fa-solid fa-bars"></i>
           </div>

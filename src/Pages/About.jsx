@@ -1,10 +1,9 @@
+import { CAR_DATA } from "../components/CarData";
 import Footer from "../components/Footer";
 import HeroPages from "../components/HeroPages";
 import PlanTrip from "../components/PlanTrip";
 import AboutMain from "../images/about/about-main.jpg";
-import Box1 from "../images/about/icon1.png";
-import Box2 from "../images/about/icon2.png";
-import Box3 from "../images/about/icon3.png";
+import background_image from "../images/hero/heroes-bg.png";
 
 function About() {
   return (
@@ -15,39 +14,44 @@ function About() {
           <div className="about-main">
             <img
               className="about-main__img"
-              src={AboutMain}
+              src={background_image}
               alt="car-renting"
             />
             <div className="about-main__text">
-              <h3>About Company</h3>
-              <h2>You start the engine and your adventure begins</h2>
+              <h3>About DriveLocal</h3>
+              <h2>A local rental brand built to feel clear, premium, and dependable</h2>
               <p>
-                Certain but she but shyness why cottage. Guy the put instrument
-                sir entreaties affronting. Pretended exquisite see cordially the
-                you. Weeks quiet do vexed or whose. Motionless if no to
-                affronting imprudence no precaution. My indulged as disposal
-                strongly attended.
+                We are a small self-drive car rental business focused on doing
+                the basics really well: clean cars, honest pricing, on-time
+                pickups, and helpful support. Our aim is to give local travelers
+                a much more modern and stress-free booking experience.
               </p>
               <div className="about-main__text__icons">
                 <div className="about-main__text__icons__box">
-                  <img src={Box1} alt="car-icon" />
+                  {/* <span className="about-stat-icon">
+                    <i className="fa-solid fa-car-side"></i>
+                  </span> */}
                   <span>
-                    <h4>20</h4>
-                    <p>Car Types</p>
+                    <h4>{CAR_DATA.length}</h4>
+                    <p>Core Cars</p>
                   </span>
                 </div>
                 <div className="about-main__text__icons__box">
-                  <img src={Box2} alt="car-icon" />
+                  {/* <span className="about-stat-icon"> */}
+                    {/* <i className="fa-solid fa-location-dot"></i> */}
+                  {/* </span> */}
                   <span>
-                    <h4>85</h4>
-                    <p>Rental Outlets</p>
+                    <h4>5+</h4>
+                    <p>Pickup Points</p>
                   </span>
                 </div>
                 <div className="about-main__text__icons__box">
-                  <img src={Box3} alt="car-icon" className="last-fk" />
+                  {/* <span className="about-stat-icon">
+                    <i className="fa-solid fa-headset"></i>
+                  </span> */}
                   <span>
-                    <h4>75</h4>
-                    <p>Repair Shop</p>
+                    <h4>24/7</h4>
+                    <p>Support</p>
                   </span>
                 </div>
               </div>
@@ -60,10 +64,10 @@ function About() {
         <div className="book-banner__overlay"></div>
         <div className="container">
           <div className="text-content">
-            <h2>Book a car by getting in touch with us</h2>
+            <h2>Have a trip coming up? We will help you choose the right car.</h2>
             <span>
               <i className="fa-solid fa-phone"></i>
-              <h3>(123) 456-7869</h3>
+              <h3>+91 98765 43210</h3>
             </span>
           </div>
         </div>

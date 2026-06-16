@@ -9,22 +9,22 @@ function Contact() {
         <div className="container">
           <div className="contact-div">
             <div className="contact-div__text">
-              <h2>Need additional information?</h2>
+              <h2>Need help before you book?</h2>
               <p>
-                A multifaceted professional skilled in multiple fields of
-                research, development as well as a learning specialist. Over 15
-                years of experience.
+                Reach out for car availability, pickup options, airport
+                bookings, or pricing details. We will help you plan the right
+                ride.
               </p>
-              <a href="/">
-                <i className="fa-solid fa-phone"></i>&nbsp; (123) 456-7869
+              <a href="tel:+919876543210">
+                <i className="fa-solid fa-phone"></i>&nbsp; +91 98765 43210
               </a>
-              <a href="/">
+              <a href="mailto:hello@drivelocal.in">
                 <i className="fa-solid fa-envelope"></i>&nbsp;
-                carrental@xyz.com
+                hello@drivelocal.in
               </a>
-              <a href="/">
+              <a href="https://wa.me/919876543210">
                 <i className="fa-solid fa-location-dot"></i>&nbsp; Bengaluru,
-                Karnatka
+                Karnataka
               </a>
             </div>
             <div className="contact-div__form">
@@ -32,7 +32,7 @@ function Contact() {
                 <label>
                   Full Name <b>*</b>
                 </label>
-                <input type="text" placeholder='E.g: "Joe Shmoe"'></input>
+                <input type="text" placeholder='E.g: "Rahul Sharma"'></input>
 
                 <label>
                   Email <b>*</b>
@@ -40,9 +40,9 @@ function Contact() {
                 <input type="email" placeholder="youremail@example.com"></input>
 
                 <label>
-                  Tell us about it <b>*</b>
+                  Tell us about your trip <b>*</b>
                 </label>
-                <textarea placeholder="Write Here.."></textarea>
+                <textarea placeholder="Pickup city, dates, and preferred car"></textarea>
 
                 <button type="submit">
                   <i className="fa-solid fa-envelope-open-text"></i>&nbsp; Send
@@ -56,10 +56,10 @@ function Contact() {
           <div className="book-banner__overlay"></div>
           <div className="container">
             <div className="text-content">
-              <h2>Book a car by getting in touch with us</h2>
+              <h2>Talk to us and get your booking sorted quickly</h2>
               <span>
                 <i className="fa-solid fa-phone"></i>
-                <h3>(123) 456-7869</h3>
+                <h3>+91 98765 43210</h3>
               </span>
             </div>
           </div>

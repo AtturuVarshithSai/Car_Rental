@@ -1,69 +1,59 @@
-import MainImg from "../images/chooseUs/main.png";
-import Box1 from "../images/chooseUs/icon1.png";
-import Box2 from "../images/chooseUs/icon2.png";
-import Box3 from "../images/chooseUs/icon3.png";
-
 function ChooseUs() {
+  const features = [
+    {
+      icon: "fa-solid fa-shield-heart",
+      title: "Well Maintained Cars",
+      text: "Every car is cleaned, inspected, and road-trip ready before handover.",
+    },
+    {
+      icon: "fa-solid fa-indian-rupee-sign",
+      title: "Affordable Prices",
+      text: "Simple daily pricing with no confusing premium add-ons.",
+    },
+    {
+      icon: "fa-solid fa-bolt",
+      title: "Easy Booking",
+      text: "Short forms, quick confirmations, and a smooth pickup experience.",
+    },
+    {
+      icon: "fa-solid fa-headset",
+      title: "24/7 Support",
+      text: "Reach us anytime for trip questions, changes, or urgent help.",
+    },
+    {
+      icon: "fa-solid fa-route",
+      title: "Flexible Plans",
+      text: "Great for airport runs, weekend trips, city travel, and family plans.",
+    },
+  ];
+
   return (
     <>
       <section className="choose-section">
         <div className="container">
           <div className="choose-container">
-            <img
-              className="choose-container__img"
-              src={MainImg}
-              alt="car_img"
-            />
-            <div className="text-container">
-              <div className="text-container__left">
+            <div className="text-container choose-grid">
+              <div className="text-container__left choose-intro">
                 <h4>Why Choose Us</h4>
-                <h2>Best valued deals you will ever find</h2>
+                <h2>Local rentals with startup-level polish and dependable service</h2>
                 <p>
-                  Discover the best deals you'll ever find with our unbeatable
-                  offers. We're dedicated to providing you with the best value
-                  for your money, so you can enjoy top-quality services and
-                  products without breaking the bank. Our deals are designed to
-                  give you the ultimate renting experience, so don't miss out on
-                  your chance to save big.
+                  We keep the experience simple: clean cars, fair pricing, clear
+                  communication, and a booking process that feels premium from
+                  first click to final drop-off.
                 </p>
-                <a href="#home">
-                  Find Details &nbsp;
-                  <i className="fa-solid fa-angle-right"></i>
-                </a>
               </div>
-              <div className="text-container__right">
-                <div className="text-container__right__box">
-                  <img src={Box1} alt="car-img" />
-                  <div className="text-container__right__box__text">
-                    <h4>Cross Country Drive</h4>
-                    <p>
-                      Take your driving experience to the next level with our
-                      top-notch vehicles for your cross-country adventures.
-                    </p>
+              <div className="text-container__right choose-features">
+                {features.map((feature) => (
+                  <div key={feature.title} className="text-container__right__box">
+                    {/* <span className="choose-icon">
+                      <i className={feature.icon}></i>
+                    </span> */}
+                    <div className="text-container__right__box__text">
+                      <h4>{feature.title}</h4>
+                      <p>{feature.text}</p>
+                    </div>
                   </div>
-                </div>
-                <div className="text-container__right__box">
-                  {" "}
-                  <img src={Box2} alt="coin-img" />
-                  <div className="text-container__right__box__text">
-                    <h4>All Inclusive Pricing</h4>
-                    <p>
-                      Get everything you need in one convenient, transparent
-                      price with our all-inclusive pricing policy.
-                    </p>
-                  </div>
-                </div>
-                <div className="text-container__right__box">
-                  {" "}
-                  <img src={Box3} alt="coin-img" />
-                  <div className="text-container__right__box__text">
-                    <h4>No Hidden Charges</h4>
-                    <p>
-                      Enjoy peace of mind with our no hidden charges policy. We
-                      believe in transparent and honest pricing.
-                    </p>
-                  </div>
-                </div>
+                ))}
               </div>
             </div>
           </div>

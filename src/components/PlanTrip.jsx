@@ -1,43 +1,50 @@
-import SelectCar from "../images/plan/icon1.png";
-import Contact from "../images/plan/icon2.png";
-import Drive from "../images/plan/icon3.png";
-
+import { MapPin, CarFront, KeyRound } from "lucide-react";
 function PlanTrip() {
   return (
     <>
-      <section className="plan-section">
+      <section id="how-it-works" className="plan-section">
         <div className="container">
           <div className="plan-container">
             <div className="plan-container__title">
-              <h3>Plan your trip now</h3>
-              <h2>Quick & easy car rental</h2>
+              <h3>How It Works</h3>
+              <h2>Booking your next drive is simple and transparent</h2>
+              <p>
+                A quick three-step process designed for local travelers who want
+                reliable cars without the usual rental friction.
+              </p>
             </div>
 
             <div className="plan-container__boxes">
               <div className="plan-container__boxes__box">
-                <img src={SelectCar} alt="icon_img" />
-                <h3>Select Car</h3>
+                <span className="plan-icon">
+                  <MapPin size={40} color="#2563eb" strokeWidth={2.2}/>
+                </span>
+                <h3>Choose Location</h3>
                 <p>
-                  We offers a big range of vehicles for all your driving needs.
-                  We have the perfect car to meet your needs
+                  Pick your preferred pickup point, rental dates, and travel
+                  plan in under a minute.
                 </p>
               </div>
 
               <div className="plan-container__boxes__box">
-                <img src={Contact} alt="icon_img" />
-                <h3>Contact Operator</h3>
+                <span className="plan-icon">
+                  <CarFront size={40} color="#2563eb" strokeWidth={2.2}/>
+                </span>
+                <h3>Choose Car</h3>
                 <p>
-                  Our knowledgeable and friendly operators are always ready to
-                  help with any questions or concerns
+                  Compare the cars based on comfort, seating,
+                  and price per day.
                 </p>
               </div>
 
               <div className="plan-container__boxes__box">
-                <img src={Drive} alt="icon_img" />
-                <h3>Let's Drive</h3>
+                <span className="plan-icon">
+                  <KeyRound size={40} color="#2563eb" strokeWidth={2.2}/>
+                </span>
+                <h3>Book & Drive</h3>
                 <p>
-                  Whether you're hitting the open road, we've got you covered
-                  with our wide range of cars
+                  Confirm your details, collect the keys, and head out with
+                  support whenever you need it.
                 </p>
               </div>
             </div>
