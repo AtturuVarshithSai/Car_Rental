@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/Car_Rental/static/css/main.d78526c6.css",
+    "main.js": "/Car_Rental/static/js/main.d8bed59f.js",
+    "static/media/heroes-bg.png": "/Car_Rental/static/media/heroes-bg.71ab9a13d73de3860763.png",
+    "static/media/ertiga.png": "/Car_Rental/static/media/ertiga.c091be973d0d73d142b6.png",
+    "static/media/baleno.png": "/Car_Rental/static/media/baleno.820ce2a03772c0cff0a5.png",
+    "static/media/pfp2.jpg": "/Car_Rental/static/media/pfp2.fd9b1716200244ed8905.jpg",
+    "static/media/swift.png": "/Car_Rental/static/media/swift.2db259bdc671f92c6a6e.png",
+    "static/media/3.png": "/Car_Rental/static/media/3.1d499e4b69de7b9e10fb.png",
+    "static/media/2.png": "/Car_Rental/static/media/2.f41d050c1c5b9e59fc22.png",
+    "static/media/4.png": "/Car_Rental/static/media/4.0e752081a69322c59b26.png",
+    "static/media/6.png": "/Car_Rental/static/media/6.528b8c60ae315bc6a52a.png",
+    "static/media/1.png": "/Car_Rental/static/media/1.4ba4d772bcd6e82365e8.png",
+    "static/media/5.png": "/Car_Rental/static/media/5.e46bcc8b44d7c4298aea.png",
+    "static/media/about-main.jpg": "/Car_Rental/static/media/about-main.ed0137841dc67d61ec95.jpg",
+    "static/media/car.png": "/Car_Rental/static/media/car.5e21eedbea3280311aff.png",
+    "static/media/bg02.png": "/Car_Rental/static/media/bg02.3efbc4567749d0a5671e.png",
+    "static/media/bg.png": "/Car_Rental/static/media/bg.82b3bf0dc76cd35f3da0.png",
+    "static/media/book-bg.png": "/Car_Rental/static/media/book-bg.6f629a1041e9fd9c6685.png",
+    "static/media/book-banner.png": "/Car_Rental/static/media/book-banner.09fcba44170a314c81a8.png",
+    "static/media/pfp1.jpg": "/Car_Rental/static/media/pfp1.ba7974ae51bb5d44fa69.jpg",
+    "static/media/bg-contact.png": "/Car_Rental/static/media/bg-contact.c178c6db0f988d408d94.png",
+    "index.html": "/Car_Rental/index.html",
+    "main.d78526c6.css.map": "/Car_Rental/static/css/main.d78526c6.css.map",
+    "main.d8bed59f.js.map": "/Car_Rental/static/js/main.d8bed59f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d78526c6.css",
+    "static/js/main.d8bed59f.js"
+  ]
+}
